@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Первое ДЗ</title>
+        <link href="css/main.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <meta content="Cherchenko A." name="author">
+
+    </head>
+
+
+    <body>
+
+        <header>
+            Здраствуйте!
+        </header>
+
+        <div class="content">
+
+            <div class="left">
+
+                <p class="textcenter">
+                    Тут будет список опций!
+                </p>
+
+                <ul>
+                    <li>
+                        Я получил балл!
+                    </li>
+
+                    <li>
+                        Я получил балл?
+                    </li>
+
+                    <li>
+                        Я получил балл!?
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="center">
+
+                <div class="centerblock">
+
+                    <h2>
+                        Главное на странице?
+                    </h2>
+
+                    <p id="input">Тут будет меняться надпись!</p>
+
+                    <br>
+
+                    <button onclick="changeText()">
+                        Нажмите, чтобы поменять надпись сверху (⓿_⓿)
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <p>
+                    Что-то вроде должно быть, но оно потеялось ༼ つ ◕_◕ ༽つ
+                </p>
+
+            </div>
+
+        </div>
+        
+        <footer>
+
+            <a href="">Артём + репозиторий</a>
+
+        </footer>
+
+    
+        <script>
+
+            function changeText() {
+
+                const inputText = document.getElementById("input");
+                const randomTexts = [
+                    "Текст поменялся",
+                    "Вай, магия!",
+                    "(☞ﾟヮﾟ)☞",
+                    "(❁´◡`❁)"
+                ];
+                const randomIndex = Math.floor(Math.random() * randomTexts.length);
+                inputText.textContent = randomTexts[randomIndex];
+            }
+
+        </script>
+
+    </body>
+    
+
+</html>

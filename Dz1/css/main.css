@@ -1,0 +1,60 @@
+header {
+    height: 15vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0 !important;
+}
+
+footer {
+    background-color: rgb(5, 139, 249);
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    text-align: end;
+}
+
+footer a {
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+}
+
+.content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.left {
+    background-color: rgb(23, 175, 23);
+    width: 20vw;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.center {
+    background-color: yellow;
+    width: 50vw;
+    text-align: center;
+}
+
+.centerblock {
+    position: relative;
+    top: 20%;
+}
+
+.right {
+    background-color: rgb(20, 188, 20);
+    width: 20vw;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
