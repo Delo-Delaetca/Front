@@ -1,3 +1,8 @@
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
+}
+
 header {
     height: 15vh;
     background-color: aqua;
@@ -8,6 +13,12 @@ header {
 
 body {
     margin: 0 !important;
+    font-family: var(--font-primary);
+}
+
+p {
+    
+    font-family: var(--font-secondary);
 }
 
 footer {
@@ -57,4 +68,24 @@ footer a {
     width: 20vw;
     text-align: center;
     padding: 0 10px 0 10px;
+}
+
+.Cat {
+    width: 100%;
+}
+
+/* Так было сразу, когда я копировал с гугла. Я решил на переменную тоже заменить фонт-фэмили. Хотя я ссылку гугла посмотрел, там уже 
+напиман какой фонт долен быть, разве нет? Там и 700, и италик, и монстеррат указаны уже. Это я не допонял.*/
+/* .montserrat-MyCss {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+} */
+
+.montserrat-MyCss {
+    font-family: var(--font-primary);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
 }
