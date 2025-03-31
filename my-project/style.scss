@@ -1,0 +1,11 @@
+@function gradient($color1, $color2) {
+    @return linear-gradient(to bottom, $color1, 0%, $color2);
+}
+
+@mixin magic($color) {
+  background-color: $color;
+}
+
+body {
+  margin: 0;
+}

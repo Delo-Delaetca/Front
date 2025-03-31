@@ -13,19 +13,22 @@
     </div>
 
     <div class="header">
-        Здраствуйте!
+        Здраствуйте! Тут Хэдер!
     </div>
 
 </template>
 
 <style lang="scss">
+    @use './style.scss' as mycss;
 
-    header {
-        height: 15vh;
-        background-color: aqua;
+    .header {
+        font-size: 30px;
+        margin: 8px;
+        height: 20vh;
+        background: mycss.gradient(green, lightblue);
         display: flex;
         align-items: center;
-        justify-content: center;
+        padding-left: 5%;
     }
 
 </style>
