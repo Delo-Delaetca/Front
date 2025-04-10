@@ -26,10 +26,10 @@
                 </div>
                 <button class="footer-button">Оставить заявку</button>
             </div>
-            <div class="footer-rights">
-                <a class="footer-rights-item" href="#">© Загдом, 2021</a>
-                <a class="footer-rights-item" href="#">Политика конфиденциальности</a>
-                <a class="footer-rights-item" href="#">Пользовательское соглашение</a>
+            <div class="footer-question">
+                <a class="footer-question-item" href="#">© Загдом, 2021</a>
+                <a class="footer-question-item" href="#">Политика конфиденциальности</a>
+                <a class="footer-question-item" href="#">Пользовательское соглашение</a>
             </div>
         </div>
     </footer>
@@ -67,7 +67,7 @@
         gap: 24px;
         font-size: 16px;
         margin-right: 122px;
-        margin-left: 154px;
+        margin-left: 164px;
         padding-top: 12px;
     }
 
@@ -95,18 +95,17 @@
         margin-left: auto;
     }
 
-    .footer-rights{
-        font-family: var(--main-font);
+    .footer-question{
         font-size: 14px;
         opacity: 0.6;
         color: #ffffff;
     }
     
-    .footer-rights-item:nth-child(1){
-        margin-right: 215px;
+    .footer-question-item:nth-child(1){
+        margin-right: 200px;
     }
 
-    .footer-rights-item:nth-child(2){
-        margin-right: 99px;
+    .footer-question-item:nth-child(2){
+        margin-right: 90px;
     }
 </style>
