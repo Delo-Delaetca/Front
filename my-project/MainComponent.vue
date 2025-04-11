@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        Hello!
+        Hello! Я вроде написал в app.vue про то, чтобы прижать футер, но наверное непрравильно сделал что-то?
     </div>
 </template>
 

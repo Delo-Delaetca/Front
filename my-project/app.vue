@@ -7,12 +7,12 @@
 
 <template>
 
-  <div>
 
-    <HeaderComponent />
-    <MainComponent />
-    <FooterComponent />
-  </div>
+
+  <HeaderComponent />
+  <MainComponent />
+  <FooterComponent />
+
 
 
 </template>
